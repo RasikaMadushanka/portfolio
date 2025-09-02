@@ -1,3 +1,11 @@
 .navbar-nav {
-  gap: 280px; /* you decide */
+  justify-items: left;
+  align-self: left;
+   gap: 120px; 
+}
+body{
+  background-color: #010018;
+}
+.navbarColor {
+  background-color: #010018; 
 }
