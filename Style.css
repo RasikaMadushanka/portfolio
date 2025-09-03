@@ -1,27 +1,82 @@
 .navbar-nav {
   justify-items: left;
   align-self: left;
-   gap: 120px; 
+  gap: 120px;
 }
-body{
+
+body {
   background-color: #010018;
 }
+
 .navbarColor {
-  background-color: #010018; 
+  background-color: #010018;
 }
-.myimage{
+
+.myimage {
   width: 350px;
   height: auto;
 }
-.iconposition{
+
+.iconposition {
   position: relative;
   left: 30.5%;
   gap: 50px;
 }
+
 .icon {
-  transition: transform 0.3s ease-in; /* smooth animation */
+  transition: transform 0.3s ease-in;
+  /* smooth animation */
 }
 
 .icon:hover {
-  transform: scale(1.2); /* enlarge icon on hover */
+  transform: scale(1.2);
+}
+
+.aboutborder {
+  width: 90%;
+  max-width: 1000px;
+  padding: 30px;
+  margin: 50px auto;
+  background: rgba(5, 3, 57, 0.92);
+  border-radius: 20px;
+  border: 2px solid rgba(36, 45, 209, 0.6);
+  box-shadow: 0 0 25px rgba(36, 45, 209, 0.3);
+}
+
+.aboutcard {
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in,
+    box-shadow 0.3s ease-in,
+    background 0.3s ease-in;
+}
+
+.aboutcard:hover {
+  background: linear-gradient(135deg, #3b3dbd, #1a1b4f);
+  transform: scale(1.05);
+  /* zoom in */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6),
+    0 0 12px rgba(36, 45, 209, 0.6);
+}
+
+.mycardtitle {
+  color: #00bfff;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cardtext {
+  color: #dcdcdc;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
