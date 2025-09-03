@@ -12,9 +12,9 @@
 
 <body>
     <!-- ----------------------------------make nav bar useing bootstrap-------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbarColor">
+    <nav class="navbar navbar-expand-lg navbar-dark navbarColor fixed-top">
         <div class="container ">
-            <a class="navbar-brand" href="#">Portfolio</a>
+            <a class="navbar-brand" href="#">Rasika Madushanka</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,13 +26,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#myproject">My Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#myservice">Services</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -100,9 +100,8 @@
     <br>
     <br>
     <!-- about mee -->
-    <section class="py-3 about">
-        <!-- gap between cards -->
-        <div class="aboutborder">
+    <section class="py-3 about" id="about">
+        <div class="aboutborder " data-aos="flip-down" data-aos-duration="1000">
             <p style="text-align: center; font-size: 30px;color:  #242DD1;font-weight: bold;">About me</p>
             <div class="container">
                 <div class="row g-4">
@@ -159,10 +158,9 @@
     </section>
     <br>
     <br>
-    <br>
-    <section class="py-3 about">
-        <!-- gap between cards -->
-        <div class="aboutborder">
+    <!-- add myService -->
+    <section class="py-3 " id="myservice">
+        <div class="aboutborder " data-aos="flip-down" data-aos-duration="2000">
             <p style="text-align: center; font-size: 30px;color:  #242DD1;font-weight: bold;">My Services</p>
             <p style="color: aliceblue;">I’m a skilled Full-Stack Developer specializing in building responsive websites
                 and dynamic web applications. I offer end-to-end solutions, including front-end design, back-end
@@ -203,12 +201,84 @@
             </div>
         </div>
     </section>
-<section>
+    <!-- add my project -->
+    <section class="py-3" id="myproject">
+        <div class="container">
+            <div class="row g-4 " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                data-aos-duration="2500">
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-center">
+                        <img src="assets/images/studentManagemnt.png" style="width: 350px;" class="img-fluid">
+                        <p>My Student management Project</p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-cente">
+                        <img src="assets/images/imart.png" style="width: 350px;" class="img-fluid">
+                        <p>My Imart Project</p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-cente">
+                        <img src="assets/images/defence.png" style="width: 350px;" class="img-fluid">
+                        <p>My Defence System Project</p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-cente">
+                        <img src="assets/images/movieapi.png" style="width: 350px;" class="img-fluid">
+                        <p>My Movieapi Website</p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-cente">
+                        <img src="assets/images/tourists.png" style="width: 350px;" class="img-fluid">
+                        <p>My Tourists Website </p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="aboutcard w-100 text-cente">
+                        <img src="assets/images/weather.png" style="width: 350px;display:inline-block;"
+                            class="img-fluid">
+                        <p>My Weather Website</p>
+                        <a href="https://github.com/RasikaMadushanka"> <input type="button" value="Mycode" class="mybtn"></a>
+
+                    </div>
+                </div>
+
+            </div>
 
 
+    </section>
+        <!-- footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p class="footer-text">© 2025 Rasika Madushanka | All Rights Reserved</p>
+            <div class="footer-icons">
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=kQzCK4emnaD2&format=png&color=ffffff"
+                        width="35"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=ffffff"
+                        width="35"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=16713&format=png&color=ffffff"
+                        width="35"></a>
+                <a href="#"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=ffffff"
+                        width="35"></a>
+            </div>
+        </div>
+    </footer>
 
-    
-</section>
+
 
 
 
