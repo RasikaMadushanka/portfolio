@@ -13,4 +13,15 @@ body{
   width: 350px;
   height: auto;
 }
+.iconposition{
+  position: relative;
+  left: 30.5%;
+  gap: 50px;
+}
+.icon {
+  transition: transform 0.3s ease-in; /* smooth animation */
+}
 
+.icon:hover {
+  transform: scale(1.2); /* enlarge icon on hover */
+}
