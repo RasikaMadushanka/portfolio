@@ -7,10 +7,11 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-<!-- ----------------------------------make nav bar useing bootstrap-------------------------- -->
+    <!-- ----------------------------------make nav bar useing bootstrap-------------------------- -->
     <nav class="navbar navbar-expand-lg navbar-dark navbarColor">
         <div class="container ">
             <a class="navbar-brand" href="#">Portfolio</a>
@@ -21,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    
+
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -56,28 +57,30 @@
             </div>
         </div>
     </nav>
-    <!-- ---add image------- -->
-<section class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-12 col-lg-12">
-        <img src="assets/images/my2.png" class="myimage py-5"  >
-        
-    </div>
-      </div>
-    </div>
-  </div>
-</section>
-<aside>
-
-    
-</aside>
+    <!-- ---add image-------and pargrph this are responsive-->
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div  class="d-flex flex-column flex-md-row align-items-center">
+                        <img src="assets/images/my2.png" class="myimage py-5 py-3 me-md-5" data-aos="flip-up" data-aos-duration="1500" >
+                        <p> <span style="color: rgb(36, 45, 209); font-weight: bold;font-size: 40px;"data-aos="fade-right" data-aos-duration="2000">Hello i'm </span><br><span style="color: aliceblue; font-size: 28px;" data-aos="fade-right" data-aos-duration="2500">Rasika Madushanka </span><br><br><span style="color: aliceblue; font-size: 15px;" data-aos="fade-right" data-aos-duration="3000">I'm a creative and detail-oriented UI/UX designer
+                        passionate about crafting intuitive digital experiences. I specialize in user-centered design,
+                        blending aesthetics with functionality to create interfaces that are both beautiful and easy to
+                        use. From wireframes to final visuals, I focus on solving real user problems through thoughtful
+                        design and seamless interaction.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
 </body>
-
 </html>
