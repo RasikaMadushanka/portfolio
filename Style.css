@@ -1,8 +1,20 @@
+/* Remove big gap in desktop */
 .navbar-nav {
-  justify-items: left;
-  align-self: left;
-  gap: 120px;
+  gap: 30px; 
 }
+
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #212529; 
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  .navbar-nav {
+    gap: 10px; 
+  }
+}
+
 
 body {
   background-color: #010018;
@@ -127,4 +139,19 @@ body {
 .footer-icons img:hover {
   transform: scale(1.2);
   filter: drop-shadow(0 0 8px #242DD1);
+}
+.navtext{
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-links a {
+  margin-right: 60px;
+}
+.navbar-links a:last-child {
+  margin-right: 0; /* no extra space on last item */
+}
+.icon {
+  width: 50px !important; /* force 50px width */
+  height: 50px !important; /* optional: make height same */
 }
